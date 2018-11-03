@@ -1,0 +1,11 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.bithumb.com/u1/US127"
+html = requests.get(url).text
+
+soup = BeautifulSoup(html, "html5lib")
+tags = soup.select("#container > div.content_wrap > div:nth-of-type(34) > table > tbody > tr > td")
+tag = tags[28]
+restriction = tag.text
+print(restriction)
