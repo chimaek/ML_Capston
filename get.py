@@ -17,7 +17,7 @@ def Cycle(second=300):
 
     # json파일을 받아와 데이터프레임으로 가공합니다.
     json = pd.read_json(readJson)
-    p1 = pd.DataFrame(json).T.drop(["status"]).drop(["24H_fluctate"], axis=1).drop(['24H_fluctate_rate'], axis=1) \
+    p1 = pd.DataFrame(json,dtype=int).T.drop(["status"]).drop(["24H_fluctate"], axis=1).drop(['24H_fluctate_rate'], axis=1) \
         .drop(['average_price'], axis=1).drop(['buy_price'], axis=1).drop(['closing_price'], axis=1) \
         .drop(['opening_price'], axis=1).drop(['units_traded'], axis=1).drop(['volume_1day'], axis=1) \
         .drop(['volume_7day'], axis=1).drop(['sell_price'], axis=1).drop(["date"], axis=1)
@@ -25,11 +25,11 @@ def Cycle(second=300):
     if(os.path.exists("data.csv")):
         #파일이 있을때 csv파일에 추가합니다.
         print("파일이 있어 기존의 데이터에 추가합니다.")
-        p1.to_csv('data.csv',mode='a',header=False,encoding='utf-8',index=False)
+        p1.to_csv('data.csv',mode='a',header=False,encoding='utf-8',index=False,sep=",")
     else:
         #파일이 없을때 csv파일을 생성합니다.
         print("파일이 없어 새로운 데이터를 생성합니다.")
-        p1.to_csv("data.csv",encoding='utf-8',header=["max","min"],index=False)
+        p1.to_csv("data.csv",encoding='utf-8',header=["max","min"],index=False,sep=",")
 
     #반복 실행
     threading.Timer(second,Cycle,[second]).start()
