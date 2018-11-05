@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c5e8c4-37a4-4c32-af8f-c2cb738f767e" name="Default Changelist" comment="" />
+    <list default="true" id="69c5e8c4-37a4-4c32-af8f-c2cb738f767e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/get.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,58 +20,70 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="23" />
-          <entry key="py" value="16" />
+          <entry key="csv" value="32" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="23" />
-          <entry key="Python" value="16" />
+          <entry key="CSV" value="32" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="5021" />
+          <entry key="py" value="6206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="5021" />
+          <entry key="Python" value="6206" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1541301636427" expanded="true" signature="161:166" ph="..." />
+                <marker date="1541336980016" expanded="true" signature="161:166" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="150">
+              <caret line="5" column="74" lean-forward="true" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -103,12 +120,13 @@
         <option value="$PROJECT_DIR$/PastSampler.py" />
         <option value="$PROJECT_DIR$/api_test.py" />
         <option value="$PROJECT_DIR$/data.csv" />
-        <option value="$PROJECT_DIR$/get.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/get.py" />
+        <option value="$PROJECT_DIR$/ex.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -140,6 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -154,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main (1)">
+  <component name="RunManager" selected="Python.get">
     <configuration name="29_stock_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_K" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_K" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +249,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,19 +280,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.api_test" />
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.get" />
       <item itemvalue="Python.Main (1)" />
       <item itemvalue="Python.29_stock_prediction" />
+      <item itemvalue="Python.ex" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.get" />
+        <item itemvalue="Python.ex" />
+        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.29_stock_prediction" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.api_test" />
       </list>
     </recent_temporary>
   </component>
@@ -291,20 +310,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3263506" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.47298786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -359,26 +378,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.csv">
-      <provider editor-type-id="csv-text-editor" />
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/get.py">
+    <entry file="file://$PROJECT_DIR$/ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="450">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1541301636427" expanded="true" signature="161:166" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="150">
+          <caret line="5" column="74" lean-forward="true" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1541336980016" expanded="true" signature="161:166" ph="..." />
           </folding>
         </state>
       </provider>
