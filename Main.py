@@ -2,9 +2,12 @@ import pandas as pd
 import numpy as np
 dataX,dataY=[],[]
 
-#csv파일에서 읽어와 빈값을 지우고 배열로 변환시킴문자열을 숫자로
-data=pd.read_csv("data.csv","w",encoding='utf-8').dropna(axis=1,how='any')
-print(data)
+#csv파일에서 읽어와 넘파일 배열로 변환
+getData=pd.read_csv("data.csv","r",encoding='utf-8')
+min_data=getData.min(axis=0).low
+
+
+print(min_data)
 
 
 
