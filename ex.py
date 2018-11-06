@@ -16,4 +16,4 @@ p1 = pd.DataFrame(jsonTicker).T.drop(["status"]).drop(["24H_fluctate"],axis=1).d
         .drop(['opening_price'],axis=1).drop(['units_traded'],axis=1).drop(['volume_1day'],axis=1)\
         .drop(['volume_7day'],axis=1).drop(['sell_price'],axis=1).drop(["date"],axis=1)
 
-print(data)
+print(p1.shape)
