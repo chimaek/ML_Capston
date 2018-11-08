@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
-import tensorflow as tf
-from sklearn.preprocessing import MinMaxScaler
 from IPython.display import SVG
 from keras.utils.vis_utils import model_to_dot
 from keras.utils import plot_model
@@ -16,7 +14,7 @@ happy=10
 dataX,dataY=[],[]
 
 #csv파일에서 읽어와 넘파일 배열로 변환
-data=pd.read_csv("data.csv","r",encoding='utf-8',delimiter=",").values
+data=pd.read_csv("data.csv","w",encoding='utf-8',delimiter=",").values
 
 # 데이터의 길이를 받아와 길이-10 의 입출력 데이터 생성
 for i in range(len(data)-happy):
@@ -47,25 +45,21 @@ for i in range(3):
 model.add(LSTM(32,batch_input_shape=(batch_size,inputData,feature),stateful=True))
 model.add(Dropout(0.1))
 model.add(Dense(feature))
-
+#모델 이미지 생성
 SVG(model_to_dot(model).create(prog='dot', format='svg'))
 plot_model(model, to_file='model.png')
-
+#모델 생성
 model.compile(loss='mean_squared_error', optimizer='adam')
 
 #모델 훈련
 train_count = 5
 for i in range(train_count):
-    print("train_step:{}".format(i+1))
+    print("학습단계:{}".format(i+1))
     model.fit(x_train, y_train, epochs=1, batch_size=1, shuffle=False)
     model.reset_states()
 
 xhat = x_train[0]
 prediction = model.predict(np.array([xhat]), batch_size=1)
-
-print("y:", y_train[0])
-print("p:", prediction)
-
-
 plt.plot(y_train)
 plt.show()
+
